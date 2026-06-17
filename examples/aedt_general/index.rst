@@ -44,6 +44,19 @@ Provides examples of some general AEDT pre-processing and post-processing capabi
 
       This example shows how to use PyAEDT to create a project in HFSS and create all optimetrics setups.
 
+   .. grid-item-card:: Parametric design study with optiSLang
+      :padding: 2 2 2 2
+      :link: parametric_design_study_in_osl
+      :link-type: doc
+
+      .. image:: _static/parametric_design_study_in_osl.png
+         :alt: Parametric design study with optiSLang
+         :width: 250px
+         :height: 200px
+         :align: center
+
+      This example shows how to combine PyAEDT and pyoptiSLang to run a parametric sensitivity study on a dipole antenna using optiSLang's ProxySolver node.
+
    .. grid-item-card:: Components
       :padding: 2 2 2 2
       :link: components/index
@@ -77,5 +90,6 @@ Provides examples of some general AEDT pre-processing and post-processing capabi
     configuration_files
     modeler/index
     optimetrics
+    parametric_design_study_in_osl
     components/index
     report/index
